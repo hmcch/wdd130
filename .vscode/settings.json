@@ -1,6 +1,6 @@
 {
   // Auto Save when focus changes (allows formatOnSave to work)
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
 
   // Editor settings
   "editor.formatOnSave": true,
@@ -16,7 +16,7 @@
   },
   "editor.parameterHints.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   "editor.inlineSuggest.enabled": false,
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 2,
