@@ -5,8 +5,8 @@
     /* warm sand */
     --accent1-color: rgba(38, 70, 83, 0.7);
     /* dark slate blue */
-    --accent2-color: #e9c46a;
-    /* light golden yellow */
+    --accent2-color: rgb(145 102 0);
+    /* dark golden brown */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
