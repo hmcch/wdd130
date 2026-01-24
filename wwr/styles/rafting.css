@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: rgba(255, 255, 255, 0.8);
     /* warm sand */
     --accent1-color: rgba(38, 70, 83, 0.7);
     /* dark slate blue */
@@ -51,7 +51,7 @@ article {
     position: absolute;
     bottom: 1.25rem;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--secondary-color);
     padding: 1rem;
     max-width: 500px;
 }
