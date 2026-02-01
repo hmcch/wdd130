@@ -23,6 +23,9 @@ div {
 
 .flex {
     background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* write declarations here */
 
 }
@@ -30,11 +33,16 @@ div {
 .grid {
     background-color: #abb;
     /* enter declarations here */
+    display: grid;
+    place-items: center;
 
 }
 
 .container2 {
     /* write declarations here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
@@ -45,11 +53,15 @@ div {
 
 .container3 {
     /* write declarations here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
 .columns-3 {
     /* write declaration here */
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
