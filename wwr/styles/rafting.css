@@ -114,7 +114,9 @@ nav ul {
     justify-content: space-around;
     align-items: center;
 
-}/* nav ul change added february 6 2026 */
+}
+
+/* nav ul change added february 6 2026 */
 
 nav a {
     text-decoration: none;
@@ -122,11 +124,15 @@ nav a {
     font: var(--heading-font);
     font-size: 1.2rem;
     font-weight: 500;
-}/* nav a change added february 6 2026 */
+}
+
+/* nav a change added february 6 2026 */
 nav a:hover {
     color: var(--accent1-color);
     background-color: white;
-}/* nav a:hover change added february 6 2026 */
+}
+
+/* nav a:hover change added february 6 2026 */
 
 footer {
     background-color: #3e3e3e;
