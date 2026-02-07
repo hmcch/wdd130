@@ -162,6 +162,7 @@ nav a:hover {
 
 footer {
     background-color: var(--accent4-color);
+    color: var(--accent3-color);
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 1rem;
@@ -169,7 +170,7 @@ footer {
 }
 
 footer p {
-    color: var(--accent2-color);
+    color: var(--accent3-color);
     font-weight: 600;
 }
 
