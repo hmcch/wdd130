@@ -13,6 +13,7 @@
     /* white */
     --accent4-color: rgba(62, 62, 62, 1.000);
     /* black laquer */
+    --accent5-color: rgba(173, 216, 230, 1.000);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -188,7 +189,7 @@ footer nav img {
 
 .socialmedia a:hover {
     background-color: unset;
-    color: unset;
+    color: var(--accent5-color);
 }
 
 /* socialmedia a:hover change added february 6 2026 */
