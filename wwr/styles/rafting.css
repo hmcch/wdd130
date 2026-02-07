@@ -1,14 +1,16 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: rgba(5, 90, 5, 1.000);
     /* forest green */
     --secondary-color: rgba(255, 255, 255, 0.8);
     /* warm sand background */
-    --accent1-color: rgb(0, 38, 77);
+    --accent1-color: rgba(0, 38, 77, 1.000);
     /* solid dark blue */
     --accent1-overlay: rgba(0, 38, 77, 0.60);
     /* semi-transparent dark */
-    --accent2-color: #f1d288;
+    --accent2-color: rgba(241, 210, 136, 1.000);
     /* dark golden brown */
+    --accent3-color: rgba(255, 255, 255, 1.000);
+    /* white */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -106,7 +108,7 @@ img {
     padding: 1rem;
     text-align: center;
     background-color: var(--accent1-overlay);
-    color: #ffff;
+    color: var(--accent3-color);
     /*check if the color selected gives enough contrast*/
 }
 
@@ -142,7 +144,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: var(--accent3-color);
     font: var(--heading-font);
     font-size: 1rem;
     font-weight: 500;
@@ -151,7 +153,7 @@ nav a {
 /* nav a change added february 6 2026 */
 nav a:hover {
     color: var(--accent1-color);
-    background-color: white;
+    background-color: var(--accent3-color);
 }
 
 /* nav a:hover change added february 6 2026 */
