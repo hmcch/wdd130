@@ -11,6 +11,8 @@
     /* dark golden brown */
     --accent3-color: rgba(255, 255, 255, 1.000);
     /* white */
+    --accent4-color: rgba(62, 62, 62, 1.000);
+    /* black laquer */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -159,7 +161,7 @@ nav a:hover {
 /* nav a:hover change added february 6 2026 */
 
 footer {
-    background-color: #3e3e3e;
+    background-color: var(--accent4-color);
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 1rem;
