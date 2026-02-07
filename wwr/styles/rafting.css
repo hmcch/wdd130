@@ -120,6 +120,7 @@ header {
     grid-template-columns: 150px auto;
     align-items: center;
     gap: 1rem;
+    color: var(--accent3-color);
     background-color: var(--primary-color);
 
 }
