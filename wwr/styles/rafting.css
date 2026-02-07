@@ -151,11 +151,13 @@ nav a {
     font: var(--heading-font);
     font-size: 1rem;
     font-weight: 500;
+    padding: 8px 12px;
+    transition: 0.3s;
 }
 
 /* nav a change added february 6 2026 */
 nav a:hover {
-    color: var(--accent5-color);
+    color: var(--accent1-color);
     background-color: var(--accent3-color);
 }
 
