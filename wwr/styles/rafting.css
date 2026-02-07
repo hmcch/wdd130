@@ -7,7 +7,7 @@
     /* solid dark blue */
     --accent1-overlay: rgba(0, 38, 77, 0.60);
     /* semi-transparent dark */
-    --accent2-color: rgb(145 102 0);
+    --accent2-color: #f1d288;
     /* dark golden brown */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -53,6 +53,10 @@ article {
     padding: 8px;
 }
 
+img {
+    width: 100%;
+}
+
 .hero {
     position: relative;
 }
@@ -66,14 +70,32 @@ article {
     max-width: 500px;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
 .hero article img {
     float: right;
     width: 7.8125rem;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    /* make the text twice width of the image */
+    /* make the text to be at both sides of image */
+    gap: 1rem;
+}
+
+.history h2,
+.adventures h2 {
+    grid-column: 1/-1;
+    text-align: center;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    text-align: center;
 }
 
 .hero h1 {
@@ -84,7 +106,7 @@ article {
     padding: 1rem;
     text-align: center;
     background-color: var(--accent1-overlay);
-    color: #fff;
+    color: #ffff;
     /*check if the color selected gives enough contrast*/
 }
 
@@ -122,7 +144,7 @@ nav a {
     text-decoration: none;
     color: white;
     font: var(--heading-font);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -153,8 +175,10 @@ footer nav img {
     margin-right: 1rem;
 }
 
+.socialmedia,
 .socialmedia a {
     text-decoration: none;
+    padding: 0;
 }
 
 .socialmedia a:hover {
