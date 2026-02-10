@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poll-form</title>
+    <link rel="stylesheet" href="styles/poll-forms.css">
+</head>
+
+<body>
+    <header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </header>
+    <main>
+       
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="fullname">Full Name:</label></td>
+                        <td><input type="text" id="fullname" name="fullname" required></td>
+                    </tr>
+                </table>
+                <br>
+                <label for="usermail">Email:</label>
+                <input type="email" id="usermail" name="usermail" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+
+                <table>
+                    <tr>
+                        <td>
+                            <label for="browser">What is your favorite internet browser?</label>
+                        </td>
+                        <td>
+                            <select id="browser" name="browser">
+                                <option value="chrome">Chrome</option>
+                                <option value="firefox">Firefox</option>
+                                <option value="edge">Edge</option>
+                                <option value="brave">Brave</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="pet">Do you have a household pet?</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="pet" name="pet">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><br><br><br>
+                            <label for="feedback">List the places you have lived:</label>
+                        </td>
+                        <td>
+                            <textarea id="feedback" name="feedback" rows="4"
+                              placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <button type="submit">Submit Poll</button>
+        </form>
+        <br>
+    </main>
+    <footer>
+        <p>&copy; 2026 | HTML Form - User Poll Activity | Héctor Miguel Castro Chávez</p>
+    </footer>
+
+</body>
+
+</html>
