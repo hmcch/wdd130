@@ -18,7 +18,7 @@
         <br>
     </header>
     <main>
-       
+
         <h1>WDD 130 | HTML Form - User Poll</h1>
         <form>
             <fieldset>
@@ -26,13 +26,18 @@
 
                 <table>
                     <tr>
+                     <div class="form-item column2">
                         <td><label for="fullname">Full Name:</label></td>
                         <td><input type="text" id="fullname" name="fullname" required></td>
+                     </div>
+                    </tr>
+                    <tr>
+                     <div class="form-item column2">
+                        <td><label for="usermail">Email:</label></td>
+                        <td><input type="email" id="usermail" name="usermail" required></td>
+                     </div>
                     </tr>
                 </table>
-                <br>
-                <label for="usermail">Email:</label>
-                <input type="email" id="usermail" name="usermail" required>
             </fieldset>
 
             <fieldset>
@@ -41,7 +46,9 @@
                 <table>
                     <tr>
                         <td>
+                         <div class="form-item column1">
                             <label for="browser">What is your favorite internet browser?</label>
+                         </div>
                         </td>
                         <td>
                             <select id="browser" name="browser">
@@ -56,7 +63,9 @@
 
                     <tr>
                         <td>
+                         <div class="form-item column1">
                             <label for="pet">Do you have a household pet?</label>
+                         </div>
                         </td>
                         <td>
                             <input type="checkbox" id="pet" name="pet">
@@ -65,7 +74,9 @@
 
                     <tr>
                         <td><br><br><br>
+                        <div class="form-item column">
                             <label for="feedback">List the places you have lived:</label>
+                        </div>
                         </td>
                         <td>
                             <textarea id="feedback" name="feedback" rows="4"
