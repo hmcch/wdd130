@@ -203,7 +203,9 @@ footer {
 
 .contact-info address {
     margin-top: 16px;
-}/* space between title and contact info */
+}
+
+/* space between title and contact info */
 
 .contact-info a {
     text-decoration: none;
@@ -299,7 +301,7 @@ footer {
 }
 
 .employees figure {
-    width: 200px;
+    width: 210px;
     justify-self: center;
 }
 
