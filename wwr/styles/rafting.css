@@ -197,6 +197,14 @@ footer {
     text-align: center;
 }
 
+.contact-info h1 {
+    margin-top: 16px;
+}
+
+.contact-info address {
+    margin-top: 16px;
+}/* space between title and contact info */
+
 .contact-info a {
     text-decoration: none;
     color: var(--accent1-color);
@@ -296,12 +304,13 @@ footer {
 }
 
 .employees img {
-    width: 100%;
+    width: 110%;
 }
 
 .employees h2 {
     grid-column: 1 / -1;
     justify-self: center;
+    font-size: 2rem;
 }
 
 /* Contact Us form formatting end */
