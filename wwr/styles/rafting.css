@@ -197,6 +197,14 @@ footer {
     text-align: center;
 }
 
+.contact-info a {
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
+/* phone number and email match the color of the text. 
+        Change added february 13 */
+
 .gmap {
     grid-column: 1 / -1;
     grid-row: 2;
