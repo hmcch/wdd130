@@ -405,11 +405,88 @@ footer {
     margin-top: 25px;
     margin-left: 200px;
     margin-bottom: 20px;
+    width: ;
 }
 
 .trips-cta:hover {
     background-color: var(--accent6-color);
 }
+
+.newsletter-trips-card h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trip-card h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.discount-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.discount-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.discount-card {
+    padding: 20px;
+    text-align: left;
+}
+
+.discount-card h2 {
+    text-align: left;
+    color: var(--primary-color);
+}
+
+.discount-card p {
+    margin-bottom: 15px;
+    margin-left: auto;
+    color: var(--accent1-color);
+}
+
+
+
+.discount-list {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.discount-list li {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.discount-note {
+    font-style: italic;
+}
+
 
 /* Ends styling for Trips
 
