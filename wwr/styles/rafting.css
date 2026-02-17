@@ -404,12 +404,13 @@ footer {
     font-weight: 600;
     margin-top: 25px;
     margin-left: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .trips-cta:hover {
     background-color: var(--accent6-color);
 }
+
 
 /* Ends styling for Trips
 
