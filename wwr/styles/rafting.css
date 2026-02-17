@@ -177,11 +177,13 @@ article {
     font-size: 1.1rem;
     margin: 0;
 }
+
 /* Explore our Trips container */
 /* Container for spacing and alignment */
 .explore-cta-section {
     width: 100%;
     margin: 40px 0;
+    margin-left: 220px;
     padding: 0;
     /* Strategic use of white space */
     text-align: center;
@@ -191,7 +193,9 @@ article {
 
 .cta-content {
     max-width: 100%;
-}/* */
+    display: flex;
+    justify-content: center;
+}
 
 /* Button styling */
 .explore-btn {
@@ -221,8 +225,6 @@ article {
     font-family: var(--body-font);
 }
 
-
-
 /* Ends styling for home */
 
 img {
@@ -241,7 +243,6 @@ img {
     padding: 1rem;
     max-width: 500px;
 }
-
 
 .hero article img {
     float: right;
@@ -388,6 +389,30 @@ footer {
     width: 400px;
     height: 400px;
 }
+
+/* Begins styling for Trips */
+
+.trips-cta {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 25px 20px;
+    border-radius: 10px;
+    font-family: var(--body-font);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.trips-cta:hover {
+    background-color: var(--accent6-color);
+}
+
+/* Ends styling for Trips
+
 
 /* Contact Us form formatting begin */
 
