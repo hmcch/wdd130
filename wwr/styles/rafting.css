@@ -392,6 +392,46 @@ footer {
 
 /* Begins styling for Trips */
 
+/* .booking-hero {
+    width: 100%;
+    text-align: center;
+}
+
+.section-title {
+    background-color: var(--accent1-overlay);
+    color: var(--accent3-color);
+    padding: 15px 0;
+    margin: 0;
+    font-family: var(--heading-font);
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+    display: block;
+}
+
+.contact-overlay-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: var(--body-font);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+
+} */
+
 .trips-cta {
     display: inline-block;
     text-decoration: none;
