@@ -402,10 +402,9 @@ footer {
     font-family: var(--body-font);
     font-size: 1.7rem;
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 200px;
     margin-bottom: 20px;
-    width: ;
 }
 
 .trips-cta:hover {
@@ -417,7 +416,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 10px;
     width: 100%;
     background-color: var(--primary-color);
@@ -470,8 +469,6 @@ footer {
     color: var(--accent1-color);
 }
 
-
-
 .discount-list {
     padding-left: 20px;
     margin-bottom: 15px;
@@ -487,6 +484,63 @@ footer {
     font-style: italic;
 }
 
+.trips-table-section {
+    margin: 30px auto;
+}
+
+.trips-table-section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.trips-table {
+    width: 100%;
+    font-family: var(--body-font);
+    background-color: var(--white);
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.trips-table thead {
+    background-color: var(--accent1-color);
+    color: var(--white);
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.trips-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--accent3-color);
+}
+
+.trips-cta-final {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 25px 20px;
+    border-radius: 10px;
+    font-family: var(--body-font);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.trips-cta-final:hover {
+    background-color: var(--accent6-color);
+}
 
 /* Ends styling for Trips
 
