@@ -415,8 +415,23 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
+    margin-top: 30px;
+    /* margin: 10px auto; */
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.newsletter-trips-card2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     margin: 10px auto;
+    margin-top: -30px;
+    margin-bottom: -25px;
     border-radius: 10px;
     width: 100%;
     background-color: var(--primary-color);
@@ -486,6 +501,7 @@ footer {
 
 .trips-table-section {
     margin: 30px auto;
+    margin-top: -30px;
 }
 
 .trips-table-section h2 {
@@ -534,6 +550,7 @@ footer {
     font-family: var(--body-font);
     font-size: 1.7rem;
     font-weight: 600;
+    margin-top: -10px;
     margin-left: 200px;
     margin-bottom: 30px;
 }
